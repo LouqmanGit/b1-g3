@@ -1,0 +1,140 @@
+@font-face {
+    font-family: SF-UI;
+    src: url("fonts\SFUIText-Regular.otf") format("opentype");
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background: white  ;
+}
+
+p{
+
+    color: rgba(0, 0, 0, 0.773);
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+
+.product{
+
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    
+   
+}
+
+.product .watch{
+
+    height: 45px;
+    margin-bottom: 10px;
+
+}
+
+
+.product h1{
+
+    opacity: 80%;
+}
+
+.Productpic{
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+#neuf{
+
+    margin: 1%;
+
+
+}
+
+#commander{
+
+    margin-top: 3%;
+}
+
+.myButton {
+    color: rgb(255, 255, 255); font-size: 20px; line-height: 18px; padding: 7px; border-radius: 50px; font-family: 'Raleway', sans-serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-color: #1C6EA4; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+    .myButton:hover {
+    
+    background: #288dd0; 
+    border: 2px solid #288dd0;}
+    .myButton:active {
+    background: #1C6EA4; }
+
+
+
+
+
+
+
+.navbar li{
+
+    list-style-type: none;
+
+
+    
+    
+}
+
+.navbar a{
+
+    color: black;
+    text-decoration: none;
+
+}
+
+.navbar{
+    
+    display: flex;
+    gap: 100px;
+    margin:auto;
+    width: 70%;
+    justify-content: center;
+    
+    
+
+}
+
+.menu-logo {
+    width: 15%;
+}
+
+.vide {
+    width: 15%;
+}
+
+.menu {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+
+.blacksection{
+    margin-top: 50px;
+    height: 400px;
+    background-color: black;
+}
+
+
+
