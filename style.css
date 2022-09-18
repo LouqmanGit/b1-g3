@@ -46,7 +46,7 @@ p{
 }
 
 .Productpic{
-    width: 80%;
+    width: 100%;
     height: auto;
     display: block;
     margin-left: auto;
@@ -131,10 +131,86 @@ p{
 
 
 .blacksection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 50px;
-    height: 400px;
+    height: 600px;
     background-color: black;
+}
+
+.blacksection .h{
+
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    
+
+}
+
+.blacksection .boite1 .img{
+
+    width: 70%;
+
+
+}
+
+.blacksection {
+
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+
+.blacksection .boite2 .euro{
+
+    font-size: 19px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-weight: 300;
 }
 
 
 
+.footer{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .map{
+
+    margin-top: 60px;
+    
+}
+
+.footer .map .maptxt{
+
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.googlemap{
+
+    border-radius: 15%;
+    
+}
+
+.footer .footeritems{
+
+    text-decoration: none;
+    font-weight: 300;
+    color: black;
+    margin-top: 60px;
+    margin-bottom: 25px;
+    font-family: 'Raleway', sans-serif;
+    
+    
+    
+}
